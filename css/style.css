@@ -1,0 +1,180 @@
+* {
+    box-sizing:border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 1em;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 1rem 0;
+    align-items: baseline;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background: white;
+}
+.logo{
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(1.25rem + 1vw);
+    line-height: calc(1.75rem + 1vw);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    display: inline-flex;
+}
+.logo__logo{
+    color: #343434;
+}
+.logo__auto {
+    color: #FF2E63;
+}
+.nav__list {
+    list-style: none;
+}
+.nav__item {
+    display: inline-block;
+    margin: 0 0.25rem;
+}
+.nav__link {
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: calc(0.25rem + 1vw);
+line-height: calc(0.56rem + 1vw);
+color: #252A34;
+}
+.nav__link_active {
+    font-weight: 800;
+}
+.bottom {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: calc(0.375rem + 1vw);
+    line-height: calc(0.75rem + 1vw);
+    display: inline-flex;
+}
+.bottom__login_link {
+    color: #FF2E63;
+}
+.bottom__register_link {
+    color: white;
+    background: #FF2E63;
+    padding:0.5rem 1.44rem; 
+    border-radius: 0.3125rem;
+    margin-left: 2rem;
+}
+.bottom__register_link:hover {
+    cursor: pointer; 
+    filter: opacity(50%);
+}
+.home {
+    display:flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: calc(100vh - 6rem)
+}
+.big_car {
+    position: absolute;
+    right: 0;
+    max-width:  100%;
+    z-index: 0;
+}
+.big_car:hover {
+    transform: translate3d(20px 50px 30px);
+    transition: all 1s ease 0s;
+    cursor: pointer;
+}
+.home__question {
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(2.5rem + 1vw);
+    line-height: 120%;
+    position: absolute;
+    left: 0;
+    top: 10rem;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+.home__question_noir {
+    color: #343434;
+}
+.home__question_color {
+    color: #FF2E63;
+}
+.home__bottom_enter {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: calc(0.375rem + 1vw);
+    line-height: calc(0.75rem + 1vw);
+    color: white;
+    background: #346CD9;
+    margin-top: 2rem;
+    padding:0.685rem 1.75rem; 
+    border-radius: 0.3125rem;
+    width: fit-content;
+}
+.home__bottom_enter:hover {
+    cursor: pointer; 
+    filter: opacity(50%);
+}
+.home__elipse {
+width: calc(20rem + 12.5vw);
+height: calc(20rem + 17.4vh);
+background:linear-gradient(131.47deg, rgba(52, 108, 217, 0) 13.96%, rgba(52, 108, 217, 0.25) 85.97%);
+border-radius: 15.43rem/13.9rem;
+position: absolute;
+z-index: -1;
+right: 5rem;
+bottom: 10rem;
+}
+.all_cars {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: calc(0.375rem + 1vw);
+    line-height: calc(0.75rem + 1vw); 
+    color: #FF2E63;
+}
+.h2 {
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(1.625rem + 1vw);
+    line-height: calc(2.25rem + 1vw);
+    color: #343434;
+}
+.Popular_products_item {
+box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
+border-radius: 10px;
+}
+.Popular_products__name_auto {
+}
+.Popular_products_price {
+}
+.special_price {
+}
+.old_price {
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-decoration-line: line-through;
+}
+.Popular_products__auto_status {
+}
