@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logoauto</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&family=Rajdhani:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="body_size">
+    <header class="header container">
+        <div class="logo">
+            <div class="logo__logo">Logo</div>
+            <div class="logo__auto">Auto</div>
+        </div>
+        <nav>
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="index.html">Home</a></li>
+                <li class="nav__item"><a class="nav__link" href="#aboutus">About us</a></li>
+                <li class="nav__item"><a class="nav__link" href="shop.html">Shop</a></li>
+                <li class="nav__item"><a class="nav__link" href="#Blog">Blog</a></li>
+                <li class="nav__item"><a class="nav__link" href="#Contacts">Contacts</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">How it Works</a></li>
+            </ul>
+        </nav>
+        <div class="bottom">
+            <div><a class="bottom__login_link" href="#">Login</a></div>
+            <div><a class="bottom__link" href="#">Register</a></div>
+        </div>
+    </header>
+    <main class="container">
+        <div class="tabs">
+            <input class="input__tab" type="radio" name="inset" value="" id="tab_1" checked>
+            <label class="label__tab" for="tab_1">Login</label>
+            <input class="input__tab" type="radio" name="inset" value="" id="tab_2">
+            <label class="label__tab" for="tab_2">Register</label>
+                <div class="tab__content" id="txt_1">
+                    <div class="form_login">
+                        <h3 class="h3">Log In</h3>
+                            <form action="#" method="post" >
+                                <div class="form_field">
+                                    <label for="mail" class="form__label">E-mail</label>
+                                    <input class="form__input" type="email" name="email" id="mail" required>
+                                </div>
+                                <div class="form_field">
+                                    <label for="pswd" class="form__label">Password</label>
+                                    <input class="form__input" type="password" name="password" id="pswd" required>
+                                </div>
+                                <a class="form_text" href="#">Forgot your password?</a>
+                                <div class="form_check">
+                                    <input  class="form_check_input" type="checkbox" name="remember" id="rmb">
+                                    <label class="form_check_label" for="rmb">Remember me</label>
+                                </div>
+                                <div class="bottom bottom__item"><a class="bottom__link" href="#">Log in</a></div>                  
+                            </form>
+                    </div>   
+                </div>
+                <div class="tab__content" id="txt_2">
+                    <div class="form_register">
+                        <h3 class="h3">Create an Account</h3>
+                            <form action="#" method="post">
+                                <div class="register__block">
+                                    <div class="register__field_short">
+                                        <label for="name" class="form__label">First Name</label>
+                                        <input class="name_area" type="text" name="name" id="name" required>
+                                    </div>
+                                    <div class="register__field_short">
+                                        <label for="surname" class="form__label">Last Name</label>
+                                        <input class="name_area" type="text" name="surname" id="surname" required>
+                                    </div>
+                                </div>
+                                <div class="form_field">
+                                    <label for="email" class="form__label">E-mail</label>
+                                    <input class="form__input" type="email" name="email" id="email" required>
+                                </div>
+                                <div class="form_check">
+                                    <div class="form_check_item">
+                                        <input class="form_check_input" type="radio" name="sex" value="male" id="male" checked>
+                                        <label class="form_check_label" for="male">Male</label>
+                                    </div>
+                                    <div class="form_check_item">
+                                        <input class="form_check_input" type="radio" name="sex" value="female" id="female">
+                                        <label class="form_check_label" for="female">Female</label>
+                                    </div>
+                                </div>
+                                <div class="register__block">
+                                    <div class="register__field_short">
+                                        <label for="pass" class="form__label">Password</label>
+                                        <input class="name_area" type="password" name="password" id="pass" required>
+                                    </div>
+                                    <div class="register__field_short">
+                                        <label for="confirm" class="form__label">Confirm Password</label>
+                                        <input class="name_area" type="password" name="confirm" id="confirm" required>
+                                    </div>
+                                </div>
+                                <div class="bottom bottom__item"><a class="bottom__link" href="#">Log in</a></div>   
+                                <div class="register__text_main"> By clicking the 'Sign Up' button, you confirm that you accept our 
+                                    <a class="register_link" href="#">Terms of Use </a>and
+                                    <a class="register_link" href="#"> Privacy Policy</a>
+                                </div> 
+                                </div>
+                             </form>
+                    </div>  
+                </div>
+   </div>
+    </main>
+    <footer class="footer">
+            <div class="logo">LogoAuto</div>
+            <nav>
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link nav_footer nav__link_active" href="#home">Home</a></li>
+                    <li class="nav__item"><a class="nav__link nav_footer" href="#aboutus">About us</a></li>
+                    <li class="nav__item"><a class="nav__link nav_footer" href="shop.html">Shop</a></li>
+                    <li class="nav__item"><a class="nav__link nav_footer" href="#Blog">Blog</a></li>
+                    <li class="nav__item"><a class="nav__link nav_footer" href="#Contacts">Contacts</a></li>
+                    <li class="nav__item"><a class="nav__link nav_footer" href="#">How it Works</a></li>
+                </ul>
+            </nav>
+    </footer>
+    
+</body>
+</html>

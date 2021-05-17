@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&family=Rajdhani:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header container">
+        <div class="logo">
+            <div class="logo__logo">Logo</div>
+            <div class="logo__auto">Auto</div>
+        </div>
+        <nav>
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="/index.html">Home</a></li>
+                <li class="nav__item"><a class="nav__link" href="#aboutus">About us</a></li>
+                <li class="nav__item"><a class="nav__link nav__link_active" href="#shop">Shop</a></li>
+                <li class="nav__item"><a class="nav__link" href="#Blog">Blog</a></li>
+                <li class="nav__item"><a class="nav__link" href="#Contacts">Contacts</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">How it Works</a></li>
+            </ul>
+        </nav>
+        <div class="bottom">
+            <div><a class="bottom__login_link" href="register.html">Login</a></div>
+            <div><a class="bottom__link" href="register.html">Register</a></div>
+        </div>
+    </header>
+    <main class="container">
+        <aside class="aside">
+            <div class="filter">
+                <div class="filter_field">
+                    <input  class="hidden" type="checkbox" id="check1">
+                    <label class="tab_label" for="check1">Price</label>
+                    <div class="price_tab_content">
+                        <div class="price_field">
+                            <label for="min" class="price_input">Min</label>
+                            <input class="price_area" type="number" name="num" id="min" value="0" min="0">
+                        </div>
+                        <div>&#8722;</div>
+                        <div class="price_field">
+                            <label for="max" class="price_input">Max</label>
+                            <input class="price_area" type="number" name="num" id="max" value="0" min="0">
+                        </div>
+                    </div>
+                </div>
+                <div class="filter_field">
+                    <input class="hidden" type="checkbox" id="check2">
+                    <label class="tab_label" for="check2">Brands</label>
+                    <div class="brands_tab_content">
+                        <div class="content__brand">
+                            <input class="hidden" type="checkbox" name="car" id="Toyota">
+                            <label class="label_name" for="Toyota">Toyota</label>
+                            <div class="count">(13)</div>
+                        </div>
+                        <div class="content__brand">
+                            <input class="hidden" type="checkbox" name="car" id="Porsche">
+                            <label class="label_name" for="Porsche">Porsche</label>
+                            <div class="count">(3)</div>
+                        </div>
+                        <div class="content__brand">
+                            <input class="hidden" type="checkbox" name="car" id="Ford">
+                            <label class="label_name" for="Ford">Ford</label>
+                            <div class="count">(8)</div>
+                        </div>
+                        <div class="content__brand">
+                            <input class="hidden" type="checkbox" name="car" id="Bugatti">
+                            <label class="label_name" for="Bugatti">Bugatti</label>
+                            <div class="count">(5)</div>
+                        </div>
+                        <div class="content__brand">
+                            <input class="hidden" type="checkbox" name="car" id="Audi">
+                            <label class="label_name" for="Audi">Audi</label>
+                            <div class="count">(12)</div>
+                        </div>
+                    </div>
+                </div>
+            <div class="filter_field">
+                <label class="search_label">Search</label>
+                <input class="search_placeholder" placeholder="Search by name...">
+            </div> 
+            </div>
+            <div class="contact__title">Contacts Details</div>  
+                <div class="filter_field">
+                    <img class="contacts__ico" src="img/shop/ico_phone.png" alt="Phone">
+                    <a class="contact__text" href="tel:879-332-9375"><b>Phone:</b> 879-332-9375</a>
+                </div> 
+                <div class="filter_field">
+                    <img class="contacts__ico" src="img/shop/ico_mail.png" alt="Email">
+                    <a class="contact__text" href="mailto:info@pixsellz.io"> <b>Email:</b> info@pixsellz.io</a>
+                </div>
+                <div class="filter_field">
+                    <img class="contacts__ico" src="img/shop/ico_adress.png" alt="Adress">
+                    <div class="contact__text"><b>Adress: </b>456 Hagenes Gardens Suite 808</div>
+                </div>
+        </aside>
+         
+        <section id="product" class="shop_container container">
+                <h2 class="h2">Our shop</h2>
+            <div class="product_list">
+                <div class="Popular_products_item shop_item"> 
+                    <div class="car_box">
+                        <img class="car_image" src="img/shop/F_mustang.jpg" alt="Ford">
+                    </div>
+                    <p class="Popular_products__name_auto">2016 Ford Mustang GT</p>
+                    <div class="Popular_products_price"> 
+                        <div class="special_price">$7999</div>
+                        <div class="old_price">$12000</div>
+                    </div>
+                    <p class="Popular_products__auto_status">Available at your store</p>
+                    <div class="bottom bottom__item"><a class="bottom__link" href="https://ford.ua/">Read more</a></div>
+                </div>
+                <div class="Popular_products_item shop_item"> 
+                    <div class="car_box">
+                        <img class="car_image" src="img/shop/f_jjj.jpg" alt="Ford">
+                    </div>
+                    <p class="Popular_products__name_auto">2016 Ford Mustang GT</p>
+                    <div class="Popular_products_price">$7999</div>
+                    <p class="Popular_products__auto_status">Available at your store</p>
+                    <div class="bottom bottom__item"><a class="bottom__link" href="https://ford.ua/">Read more</a></div>
+                </div>
+                <div class="Popular_products_item shop_item"> 
+                    <div class="car_box">
+                        <img class="car_image" src="img/shop/hh_o.jpg" alt="Ford">
+                    </div>
+                    <p class="Popular_products__name_auto">2016 Ford Mustang GT</p>
+                    <div class="Popular_products_price"> 
+                        <div class="special_price">$7999</div>
+                        <div class="old_price">$12000</div>
+                    </div>
+                    <p class="Popular_products__auto_status">Available at your store</p>
+                    <div class="bottom bottom__item"><a class="bottom__link" href="https://ford.ua/">Read more</a></div>
+                </div>
+                <div class="Popular_products_item shop_item"> 
+                    <div class="car_box">
+                        <img class="car_image" src="img/shop/f_3.jpg" alt="Ford">
+                    </div>
+                    <p class="Popular_products__name_auto">2016 Ford Mustang GT</p>
+                    <div class="Popular_products_price"> 
+                        <div class="special_price">$7999</div>
+                        <div class="old_price">$12000</div>
+                    </div>
+                    <p class="Popular_products__auto_status">Available at your store</p>
+                    <div class="bottom bottom__item"><a class="bottom__link" href="https://ford.ua/">Read more</a></div>
+                </div>
+                <div class="Popular_products_item shop_item"> 
+                    <div class="car_box">
+                        <img class="car_image" src="img/shop/f_3.jpg" alt="Ford">
+                    </div>
+                    <p class="Popular_products__name_auto">2016 Ford Mustang GT</p>
+                    <div class="Popular_products_price">$7999</div>
+                    <p class="Popular_products__auto_status">Available at your store</p>
+                    <div class="bottom bottom__item"><a class="bottom__link" href="https://ford.ua/">Read more</a></div>
+                </div>
+                <div class="Popular_products_item shop_item"> 
+                    <div class="car_box">
+                        <img class="car_image" src="img/shop/f_2.jpg" alt="Ford">
+                    </div>
+                    <p class="Popular_products__name_auto">2016 Ford Mustang GT</p>
+                    <div class="Popular_products_price"> 
+                        <div class="special_price">$7999</div>
+                        <div class="old_price">$12000</div>
+                    </div>
+                    <p class="Popular_products__auto_status">Available at your store</p>
+                    <div class="bottom bottom__item"><a class="bottom__link" href="https://ford.ua/">Read more</a></div>
+                </div>
+                <div class="Popular_products_item shop_item"> 
+                    <div class="car_box">
+                        <img class="car_image" src="img/shop/F_mustang.jpg" alt="Ford">
+                    </div>
+                    <p class="Popular_products__name_auto">2016 Ford Mustang GT</p>
+                    <div class="Popular_products_price"> 
+                        <div class="special_price">$7999</div>
+                        <div class="old_price">$12000</div>
+                    </div>
+                    <p class="Popular_products__auto_status">Available at your store</p>
+                    <div class="bottom bottom__item"><a class="bottom__link" href="https://ford.ua/">Read more</a></div>
+                </div>
+                <div class="Popular_products_item shop_item"> 
+                    <div class="car_box">
+                        <img class="car_image" src="img/shop/hh_o.jpg" alt="Ford">
+                    </div>
+                    <p class="Popular_products__name_auto">2016 Ford Mustang GT</p>
+                    <div class="Popular_products_price">$7999</div>
+                    <p class="Popular_products__auto_status">Available at your store</p>
+                    <div class="bottom bottom__item"><a class="bottom__link" href="https://ford.ua/">Read more</a></div>
+                </div>
+                <div class="Popular_products_item shop_item"> 
+                    <div class="car_box">
+                        <img class="car_image" src="img/shop/F_mustang.jpg" alt="Ford">
+                    </div>
+                    <p class="Popular_products__name_auto">2016 Ford Mustang GT</p>
+                    <div class="Popular_products_price"> 
+                        <div class="special_price">$7999</div>
+                        <div class="old_price">$12000</div>
+                    </div>
+                    <p class="Popular_products__auto_status">Available at your store</p>
+                    <div class="bottom bottom__item"><a class="bottom__link" href="https://ford.ua/">Read more</a></div>
+                </div>
+            </div>
+            <div class="page__list">
+                <a class="page__item page_active" href="#">1</a>
+                <a class="page__item" href="#">2</a>
+                <a class="page__item" href="#">3</a>
+                <a class="page__item" href="#">4</a>
+                <a class="page__item" href="#">...</a>
+                <a class="page__item" href="#">10</a>
+                <form action="#">
+                    <button class="page_button">Next &#8250;</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="logo">LogoAuto</div>
+        <nav>
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link nav_footer nav__link_active" href="#home">Home</a></li>
+                <li class="nav__item"><a class="nav__link nav_footer" href="#aboutus">About us</a></li>
+                <li class="nav__item"><a class="nav__link nav_footer" href="shop.html">Shop</a></li>
+                <li class="nav__item"><a class="nav__link nav_footer" href="#Blog">Blog</a></li>
+                <li class="nav__item"><a class="nav__link nav_footer" href="#Contacts">Contacts</a></li>
+                <li class="nav__item"><a class="nav__link nav_footer" href="#">How it Works</a></li>
+            </ul>
+        </nav>
+    </footer>  
+</body>
+</html>
